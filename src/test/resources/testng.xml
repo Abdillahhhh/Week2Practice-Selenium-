@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite Test Web Ecommerce">
+    <!-- <parameter name="url" value="https://demo.guru99.com/test/link.html" /> 
+    <parameter name="url" value="https://demo.guru99.com/test/accessing-link.html" />  
+    <parameter name="url" value="https://demo.guru99.com/test/newtours/" />  -->
+    <parameter name="url" value="http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html" />  
+  <!--  <test verbose="0" name="Radio Tests">
+        <classes>
+            <class name="com.juaracoding.test.Hook" />
+            <class name="com.juaracoding.test.RadioTest" />
+        </classes>
+    </test>
+
+    <test verbose="0" name="Checkbox Tests">
+        <classes>
+            <class name="com.juaracoding.test.Hook" />
+            <class name="com.juaracoding.test.CheckboxTest" />
+        </classes>
+    </test> 
+
+    <test verbose="0" name="Selected Tests">
+        <classes>
+            <class name="com.juaracoding.test.Hook" />
+            <class name="com.juaracoding.test.SelectedTest" />
+        </classes>
+    </test> 
+
+        <test verbose="0" name="Hyperlink">
+        <classes>
+            <class name="com.juaracoding.test.Hook" />
+           <class name="com.juaracoding.test.ByLinkText" /> 
+            <class name="com.juaracoding.test.ActionTest" />        
+        </classes>
+    </test> -->
+
+        <test verbose="0" name="Drag Drop Test">
+        <classes>
+            <class name="com.juaracoding.test.Hook" />
+           <!-- <class name="com.juaracoding.test.ActionTest" />      -->  
+            <class name="com.juaracoding.test.DragDropTest" />        
+        </classes>
+    </test>
+</suite>
